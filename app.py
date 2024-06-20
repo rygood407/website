@@ -24,8 +24,8 @@ st.set_page_config(page_title="DIRI", layout="wide",)
 
 
 with st.container():
-    st.title("DIRI")
-    st.subheader("Fashion is kinda a joke. I don't get too bogged down in the clothes. For me, it's one big art project, just a canvas to show that fashion should have a brand which has someone behind it who cares about different contexts. Social things. -Virgil Abloh")
+    st.title("What is DIRI?")
+    st.subheader("DIRI is a contemporary fashion brand committed to sustainability and ethical practices in the fashion industry. Founded on the principles of transparency and craftsmanship, DIRI aims to redefine modern luxury by prioritizing quality, longevity, and environmental responsibility. The brand sources eco-friendly materials and partners with artisans who uphold traditional techniques, ensuring each piece is not only stylish but also conscientiously made. DIRI's purpose is to inspire a shift towards a more sustainable fashion future while empowering individuals to express themselves through thoughtfully designed, timeless pieces that make a positive impact on both people and the planet.")
 
 
 with st.container():
@@ -85,9 +85,8 @@ def local_css(file_name):
 
 local_css("style/style.css")
 
+with open( "style/style.css" ) as css:
+    st.markdown( f'<style>{css.read()}</style>' , unsafe_allow_html= True)
 
-
-
-
-
-
+   
+      
