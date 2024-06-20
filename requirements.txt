@@ -5,4 +5,5 @@ yfinance
 pandas-datareader
 prophet
 streamlit_lottie
-pillows
+pillow
+
