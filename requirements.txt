@@ -6,4 +6,4 @@ pandas-datareader
 prophet
 streamlit_lottie
 pillow
-streamlit --upgrade
+
